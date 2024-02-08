@@ -1,0 +1,31 @@
+.btn-outline-secondary {
+    width: 210px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.flex-fill {
+    display: inline-block;
+}
+
+.wd-small-navbar {
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+
+.wd-small-navbar > p {
+    text-align: center;
+}
+
+.wd-large-navbar {
+    color: red;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.wd-kanbas-navigation.wd-modal {
+    width: 100%;
+}
