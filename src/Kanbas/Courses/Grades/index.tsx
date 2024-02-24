@@ -1,0 +1,67 @@
+function Grades() {
+  return (
+    <div>
+  <select>
+    <option value="gradebook">Gradebook</option>
+  </select>
+  <button type="button">Import</button>
+  <select>
+    <option value="export">Export</option>
+  </select>
+  <button type="button">Configure</button>
+  <h3>Student Names</h3>
+  <input type="text" id="student-search" placeholder="Search Students" title="Search For Students"></input>
+  <h3>Assignment Names</h3>
+  <input type="text" id="assignment-search" placeholder="Search Assignments" title="Search For Assignments"></input>
+  <br />
+  <br />
+  <button type="button">Apply Filters</button>
+  <br />
+  <br />
+  <div className="table-responsive">
+  <table className="table">
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>A1 SETUP Out of 100</th>
+        <th>A2 HTML Out of 100</th>
+        <th>A3 CSS Out of 100</th>
+        <th>A4 BOOTSTRAP Out of 100</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Princess Leia</td>
+        <td><input type="number" value="90"></input></td>
+        <td>94</td>
+        <td>85</td>
+        <td>84</td>
+      </tr>
+      <tr>
+        <td>Luke Skywalker</td>
+        <td><input type="number" value="100"></input></td>
+        <td>94</td>
+        <td><input type="number" value="87"></input></td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Hans Solo</td>
+        <td><input type="number" value="94"></input></td>
+        <td>90</td>
+        <td>89</td>
+        <td><input type="number" value="80"></input></td>
+      </tr>
+      <tr>
+        <td>Lando Calresian</td>
+        <td>89</td>
+        <td><input type="number" value="90"></input></td>
+        <td>88</td>
+        <td>87</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+  );
+}
+export default Grades;
