@@ -11,7 +11,7 @@ import KanbasNavigation from "../Navigation";
 import Grades from "./Grades";
 import Editor from "./Assignments/Editor";
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const { courseId } = useParams();
   const course = courses.find((course) => course._id === courseId);
   const location = useLocation();
